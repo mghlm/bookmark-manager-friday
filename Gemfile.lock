@@ -117,6 +117,7 @@ DEPENDENCIES
   capybara
   data_mapper
   dm-postgres-adapter
+  rack
   rspec
   selenium-webdriver
   sinatra

@@ -8,4 +8,5 @@ gem 'rspec', group: :test
 gem 'capybara', group: :test
 gem 'sinatra'
 gem 'selenium-webdriver'
+gem 'rack'
 # gem 'simplecov', require: false, group: :test
