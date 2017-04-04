@@ -9,4 +9,5 @@ gem 'capybara', group: :test
 gem 'sinatra'
 gem 'selenium-webdriver'
 gem 'rack'
+gem 'database_cleaner'
 # gem 'simplecov', require: false, group: :test
