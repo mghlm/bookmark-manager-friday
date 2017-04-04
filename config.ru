@@ -1,2 +1,3 @@
-# require_relative './app'
-# run Link
+require 'capybara/rspec'
+require'./app/app'
+run BookmarkManager
