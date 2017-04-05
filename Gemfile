@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby '2.3.3'
 
+gem 'sinatra'
 gem 'data_mapper'
 gem 'dm-postgres-adapter'
-gem 'sinatra'
+gem 'database_cleaner'
 gem 'selenium-webdriver'
 gem 'rack'
-gem 'database_cleaner'
 gem 'pg'
 # gem 'simplecov', require: false, group: :test
 
