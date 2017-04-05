@@ -1,6 +1,8 @@
+ENV["RACK_ENV"] ||= "development"
 # require 'data_mapper'
 require 'sinatra/base'
 require './app/models/link'
+
 
 class BookmarkManager < Sinatra::Base
   # enable :sessions

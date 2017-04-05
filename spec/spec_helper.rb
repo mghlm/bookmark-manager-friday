@@ -1,3 +1,4 @@
+ENV['RACK_ENV'] = 'test'
 # require 'simplecov'
 # SimpleCov.start
 
@@ -8,7 +9,6 @@ require 'capybara/rspec'
 require './app/app'
 require 'database_cleaner'
 
-ENV['RACK_ENV'] = 'test'
 
 Capybara.app = BookmarkManager
 
