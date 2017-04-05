@@ -12,7 +12,6 @@ class Link
   property :id, Serial
   property :title, String
   property :url, String
-
 end
 
 # data_mapper_setup

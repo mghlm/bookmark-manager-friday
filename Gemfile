@@ -9,6 +9,7 @@ gem 'database_cleaner'
 gem 'selenium-webdriver'
 gem 'rack'
 gem 'pg'
+gem 'pry'
 # gem 'simplecov', require: false, group: :test
 
 group :test do
