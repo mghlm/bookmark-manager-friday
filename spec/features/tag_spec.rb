@@ -4,9 +4,9 @@ feature 'tag field' do
     fill_in :title, with: 'google'
     fill_in :url, with: 'google.co.uk'
     fill_in :tags, with: 'search engine'
+
     click_button 'Add link'
-    within 'ul#links' do
-      expect(page).to have_content("search engine")
+    link = Link.first
+    expect(link.tags.map(&:name)).to include("search engine")
     end
-  end
 end
