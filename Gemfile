@@ -10,4 +10,5 @@ gem 'sinatra'
 gem 'selenium-webdriver'
 gem 'rack'
 gem 'database_cleaner'
+gem 'pg'
 # gem 'simplecov', require: false, group: :test
