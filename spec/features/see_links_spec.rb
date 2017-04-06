@@ -27,4 +27,11 @@ feature 'see links' do
     end
   end
 
+  scenario 'user can add new link' do
+    visit('/links')
+    click_button "Add link"
+    expect(page).to have_content('New Link')
+  end
+
+
 end
