@@ -8,6 +8,7 @@ gem 'dm-postgres-adapter'
 gem 'database_cleaner'
 gem 'selenium-webdriver'
 gem 'rack'
+gem 'rake'
 gem 'pg'
 gem 'pry'
 # gem 'simplecov', require: false, group: :test
