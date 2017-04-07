@@ -7,7 +7,7 @@ def create_link
 end
 
 def sign_up
-  visit '/users/new'
+  visit '/user/new'
   expect(page.status_code).to eq(200)
   fill_in('email', with: 'banana@gmail.com')
   fill_in('password', with: '123banana')
@@ -16,7 +16,7 @@ def sign_up
 end
 
 def sign_up_mismatch
-  visit '/users/new'
+  visit '/user/new'
   expect(page.status_code).to eq(200)
   fill_in('email', with: 'banana@gmail.com')
   fill_in('password', with: '123banana')

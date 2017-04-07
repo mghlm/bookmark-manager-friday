@@ -12,6 +12,7 @@ gem 'rack'
 gem 'rake'
 gem 'pg'
 gem 'pry'
+gem 'sinatra-flash'
 # gem 'simplecov', require: false, group: :test
 
 group :test do
