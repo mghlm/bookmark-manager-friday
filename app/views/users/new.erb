@@ -1,7 +1,8 @@
 <form action='/users' method='post'>
 
   Email:  <input type='text' name='email' id='email'>
-  Password: <input type='text' name='password' id='password'>
+  Password: <input type='password' name='password' id='password'>
+  Confirm password: <input type='password' name='password_confirmation' id='password_confirmation'> <%= @error %>
 
   <input type='submit' value='Sign up'>
 
