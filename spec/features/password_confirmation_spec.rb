@@ -8,7 +8,7 @@ feature 'password confirmation' do
     fill_in('password_confirmation', with: '123orange')
     click_button('Sign up')
     expect { sign_up_mismatch }.not_to change(User, :count)
-    expect(current_path).to eq ('/user/new')
+    expect(current_path).to eq ('/user')
     expect(page).to have_content 'Password and confirmation password do not match'
   end
 end
